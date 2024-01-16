@@ -16,7 +16,7 @@ const ChipsSelect: React.FC = (_props: Props) => {
   const [selectdOptions, setSelectedOptions] = useState<string[]>([]);
 
   const inputChangeHandler = ({ target: { value } }: React.ChangeEvent<HTMLInputElement>) => {
-    setOptionList(initioalOptionList.filter(val => val.toLowerCase().includes(value.toLowerCase()) && !selectdOptions.includes(value)))
+    setOptionList(initioalOptionList.filter(val => val.toLowerCase().includes(value.toLowerCase()) && !selectdOptions.includes(val)))
     setShowOptions(value.length > 0);
   }
 
