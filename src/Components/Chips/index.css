@@ -1,0 +1,43 @@
+.higlight{
+    background-color: #CAE7F1 !important;
+}
+
+.chips{
+    padding: 7px 19px;
+    margin-right: 6px;
+    background-color: #DFDEDE;
+    border-radius: 16px;
+}
+
+/* .chips:after{
+    position: relative;
+    display: inline-block;
+    right: -12px;
+    cursor: pointer;
+    top: 1px;
+    height: 0;
+    font-size: 28px;
+    content: "\00d7";
+} */
+
+.chipsImage{
+    height: 29px;
+    border-radius: 50%;
+    position: relative;
+    left: -16px;
+    top: 8px;
+}
+
+.chipsClose{
+    height: 17px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    right: -16px;
+    top: 8px;
+    padding: 6px;
+}
+
+.chipsClose:hover {
+    background-color: #E4CAF1;
+}

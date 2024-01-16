@@ -1,0 +1,21 @@
+.optionContainer{
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+.optionContainer:hover{
+    background-color: #E1EEFF;
+    cursor: pointer;
+}
+
+.optionImage{
+    height: 29px;
+    border-radius: 50%;
+    left: -16px;
+    top: 8px;
+}
+
+.optionValue{
+    flex-grow: 4;
+}
